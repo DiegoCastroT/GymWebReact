@@ -1,0 +1,16 @@
+.carousel-button {
+    background-color: orange;
+    color: black;
+    margin-top: 3%;
+}
+
+/* Remove transition on carousel */
+.carousel-item {
+    transition: none !important;
+}
+.carousel-inner img {
+    height: 90vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}

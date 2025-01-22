@@ -1,0 +1,29 @@
+/* Style for user info (name and avatar) in opinion cards */
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%; /* Set the margin between the user image and name */
+}
+
+/* Style for the card title (the opinion headline) */
+.card-title {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Style for the card text (the opinion body) */
+.card-text {
+    font-size: 0.95rem;
+}
+
+/* Custom styles for card component */
+.card {
+    width: 95%;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow and move the card slightly up */
+}

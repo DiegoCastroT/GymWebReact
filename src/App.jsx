@@ -1,12 +1,12 @@
-import './App.css'
 
-function App() {
+import Main from "./pages/Main.jsx";
 
-  return (
-    <>
-    <h1>Hola mundo</h1>
-    </>
-  )
-}
+
+const App = () => (
+    <div>
+      <Main/>
+    </div>
+);
+
 
 export default App

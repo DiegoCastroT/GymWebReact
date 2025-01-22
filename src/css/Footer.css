@@ -1,0 +1,61 @@
+footer {
+    margin-top: 5%;
+}
+
+footer .container {
+    margin-top: 3%;
+}
+
+footer .row.align-items-start {
+    margin-top: 3%;
+}
+
+footer .col-sm {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer .navbar-brand img {
+    width: 100px;
+}
+
+footer .d-flex a {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+footer .text-center {
+    margin-top: 3%;
+}
+
+footer .col-sm h5 {
+    font-weight: bold;
+}
+
+footer .col-sm p {
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+footer .col-sm a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .col-sm a:hover {
+    text-decoration: underline;
+}
+
+footer .col-sm p {
+    color: #000;
+}
+
+footer .text-center {
+    font-size: 0.85rem;
+}
+
+footer .d-flex.mt-3 {
+    display: flex;
+    gap: 10px;
+}
