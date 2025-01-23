@@ -1,0 +1,20 @@
+
+.loginBtn {
+    background-color: darkorange;
+    color: black;
+    width: 80%;
+}
+
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid {
+    background-color: white;
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.card {
+    margin-bottom: 7%;
+    margin-top: 6%;
+}
