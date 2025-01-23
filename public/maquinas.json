@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Cinta de correr",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "descarga.jpeg"
+    },
+    {
+      "nombre": "Bicicleta Estatica",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "bici.jfif"
+    },
+    {
+      "nombre": "Máquina de remo",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "descarga.jpeg"
+    },
+    {
+      "nombre": "Bicicleta de Spinning",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "descarga.jpeg"
+    },
+    {
+      "nombre": "Eliptica",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "descarga.jpeg"
+    },
+    {
+      "nombre": "Cinta de correr",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "descarga.jpeg"
+    }
+  ]

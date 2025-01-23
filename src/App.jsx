@@ -1,10 +1,11 @@
 
 import Main from "./pages/Main.jsx";
+import Maquinas from "./components/Maquinas.jsx";
 
 
 const App = () => (
     <div>
-      <Main/>
+      <Maquinas/>
     </div>
 );
 
