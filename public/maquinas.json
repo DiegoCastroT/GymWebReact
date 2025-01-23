@@ -3,36 +3,36 @@
       "nombre": "Cinta de correr",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "descarga.jpeg"
+      "foto": "cinta.png"
     },
     {
       "nombre": "Bicicleta Estatica",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "bici.jfif"
+      "foto": "bici.png"
     },
     {
       "nombre": "Máquina de remo",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "descarga.jpeg"
+      "foto": "remo.png"
     },
     {
       "nombre": "Bicicleta de Spinning",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "descarga.jpeg"
+      "foto": "spinning.png"
     },
     {
       "nombre": "Eliptica",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "descarga.jpeg"
+      "foto": "eliptica.png"
     },
     {
-      "nombre": "Cinta de correr",
+      "nombre": "Multipower",
       "plazas": 10,
       "precioPorHora": 6,
-      "foto": "descarga.jpeg"
+      "foto": "multipowe.png"
     }
   ]

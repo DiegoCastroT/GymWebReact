@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Card, Row, Col, Container, Button, Spinner } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+import '../css/ReservaCurso.css';
+
 
 const Maquinas = () => {
   const [maquinas, setMaquinas] = useState([]);
@@ -30,12 +32,13 @@ const Maquinas = () => {
       <Row xs={1} sm={2} md={3} lg={3} className="g-4">
         {maquinas.map((maquina, index) => (
           <Col key={index}>
-            <Card className="h-100">
+            <Card>
               <Card.Img
                 variant="top"
                 src={maquina.foto}
                 alt={maquina.nombre}
-                style={{ objectFit: "cover" }}
+                style={{height: "275px",
+                }}
               />
               <Card.Body>
                 <Card.Title>{maquina.nombre}</Card.Title>

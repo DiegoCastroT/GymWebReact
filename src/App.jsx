@@ -1,14 +1,11 @@
-import Main from "./pages/Main.jsx";
 import Login from "./pages/Login.jsx";
-=======
-import ReservaCursos from "./pages/ReservaCurso.jsx";
+import Main from "./pages/Main.jsx";
 import ReservaMaquinas from "./pages/ReservaMaquinas.jsx";
-
+import ReservaCurso from "./pages/ReservaCurso.jsx";
 
 const App = () => (
     <div>
-      <Login/>
-      <ReservaCursos/>
+      <ReservaMaquinas/>
     </div>
 );
 
