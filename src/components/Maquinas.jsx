@@ -17,8 +17,8 @@ const Maquinas = () => {
       const updatedMaquinas = [...prevMaquinas];
       const maquina = updatedMaquinas[index];
 
-      if (maquina.plazas >= 0) {
-        maquina.plazas = maquina.plazas - 1;
+      if (maquina.plazas > 0) {
+        maquina.plazas --;
       }
       return updatedMaquinas;
     });

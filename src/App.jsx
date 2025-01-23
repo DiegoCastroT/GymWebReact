@@ -1,12 +1,11 @@
-
-import Cursos from "./components/Cursos.jsx";
 import Main from "./pages/Main.jsx";
+import ReservaCursos from "./pages/ReservaCurso.jsx";
 import ReservaMaquinas from "./pages/ReservaMaquinas.jsx";
 
 
 const App = () => (
     <div>
-      <Main/>
+      <ReservaCursos/>
     </div>
 );
 

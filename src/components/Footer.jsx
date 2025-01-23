@@ -9,7 +9,7 @@ const Footer = () => {
                 <Row className="align-items-start">
                     <Col sm className="d-flex flex-column align-items-center mb-4">
                         <div className="navbar-brand">
-                            <img src="/LOGO2.png" alt="Logo Gimnasio" style={{ width: '100px' }} />
+                            <img src="/LOGO2.png" alt="Logo Gimnasio" style={{ width: '100px' }}/>
                         </div>
                         <div className="d-flex mt-3 gap-3">
                             <div>

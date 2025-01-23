@@ -3,7 +3,7 @@ import Cursos from "../components/Cursos.jsx";
 import Footer from "../components/Footer.jsx";
 
 
-const Cursos = () => (
+const ReservaCursos = () => (
     <>
         <Header/>
         <Cursos/>
@@ -12,4 +12,4 @@ const Cursos = () => (
 );
 
 
-export default Maquinas
+export default ReservaCursos

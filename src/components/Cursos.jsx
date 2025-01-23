@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Row, Col, Container, Button, Spinner } from "react-bootstrap";
+import { Card, Row, Col, Container, Button,} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Cursos = () => {
@@ -17,8 +17,9 @@ const Cursos = () => {
       const updatedCursos = [...prevCursos];
       const curso = updatedCursos[index];
 
-      if (curso.plazas >= 0) {
-        curso.plazas = curso.plazas - 1;
+      if (curso.plazas > 0) {
+        curso.plazas --;
+        console.log(`Reservado curso en posición ${index}, plazas restantes: ${curso.plazas}`);
       }
       return updatedCursos;
     });
@@ -39,7 +40,7 @@ const Cursos = () => {
               />
               <Card.Body>
                 <Card.Title>{curso.nombre}</Card.Title>
-                <Card.Text>{curso.dificultad}</Card.Text>
+                <Card.Text><strong>Dificultad: </strong>{curso.dificultad}</Card.Text>
                 <Card.Text>
                   <strong>Disponibles:</strong>{" "}
                   {curso.plazas === 0 ? (

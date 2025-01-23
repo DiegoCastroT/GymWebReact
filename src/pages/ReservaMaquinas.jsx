@@ -3,7 +3,7 @@ import Maquinas from "../components/Maquinas.jsx";
 import Footer from "../components/Footer.jsx";
 
 
-const Maquinas = () => (
+const ReservaMaquinas = () => (
     <>
         <Header/>
         <Maquinas/>
@@ -12,4 +12,4 @@ const Maquinas = () => (
 );
 
 
-export default Maquinas
+export default ReservaMaquinas
