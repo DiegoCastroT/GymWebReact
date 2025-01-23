@@ -1,10 +1,11 @@
 
 import Main from "./pages/Main.jsx";
+import Login from "./pages/Login.jsx";
 
 
 const App = () => (
     <div>
-      <Main/>
+      <Login/>
     </div>
 );
 
