@@ -8,22 +8,22 @@ const Footer = () => {
             <Container className="mt-3">
                 <Row className="align-items-start">
                     <Col sm className="d-flex flex-column align-items-center mb-4">
-                        <a className="navbar-brand" href="#">
-                            <img src="public/LOGO2.png" alt="Logo Gimnasio" style={{ width: '100px' }} />
-                        </a>
+                        <div className="navbar-brand">
+                            <img src="/LOGO2.png" alt="Logo Gimnasio" style={{ width: '100px' }}/>
+                        </div>
                         <div className="d-flex mt-3 gap-3">
-                            <a href="https://www.youtube.es" target="_blank" rel="noopener noreferrer">
-                                <img src="public/youtube.png" className="rounded" alt="YouTube" style={{ width: '25px' }} />
-                            </a>
-                            <a href="https://www.linkedin.es" target="_blank" rel="noopener noreferrer">
-                                <img src="public/linkedin.png" className="rounded" alt="LinkedIn" style={{ width: '25px' }} />
-                            </a>
-                            <a href="https://x.com/?lang=es" target="_blank" rel="noopener noreferrer">
-                                <img src="public/twitter-x.svg" className="rounded" alt="X (Twitter)" style={{ width: '25px' }} />
-                            </a>
-                            <a href="https://www.instagram.es" target="_blank" rel="noopener noreferrer">
-                                <img src="public/instagram.svg" className="rounded" alt="Instagram" style={{ width: '25px' }} />
-                            </a>
+                            <div>
+                                <img src="/youtube.png" className="rounded" alt="YouTube" style={{ width: '25px' }} />
+                            </div>
+                            <div>
+                                <img src="/linkedin.png" className="rounded" alt="LinkedIn" style={{ width: '25px' }} />
+                            </div>
+                            <div>
+                                <img src="/twitter-x.svg" className="rounded" alt="X (Twitter)" style={{ width: '25px' }} />
+                            </div>
+                            <div>
+                                <img src="/instagram.svg" className="rounded" alt="Instagram" style={{ width: '25px' }} />
+                            </div>
                         </div>
                     </Col>
 
