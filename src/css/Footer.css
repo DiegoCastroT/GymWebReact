@@ -2,7 +2,6 @@ footer {
     position: relative;
     bottom: 0; /* Para que quede pegado abajo */
     width: 100%;
-    z-index: 1; /* Para que este encima del video */
     background-color: aliceblue;
     margin-top: auto;
     padding: 1rem 0;
