@@ -1,12 +1,12 @@
 import Header from "../components/Header.jsx"
-import Maquinas from "../components/Maquinas.jsx";
+import Cursos from "../components/Cursos.jsx";
 import Footer from "../components/Footer.jsx";
 
 
-const Maquinas = () => (
+const Cursos = () => (
     <>
         <Header/>
-        <Maquinas/>
+        <Cursos/>
         <Footer/>
     </>
 );
