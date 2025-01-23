@@ -13,12 +13,12 @@ const Header = () => {
                 <Navbar.Collapse id="collapsibleNavbar">
                     <Nav className="ms-auto">
                         <NavDropdown title="Servicios" id="serviciosDropdown">
-                            <NavDropdown.Item href="#">Máquinas</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Curso</NavDropdown.Item>
+                            <NavDropdown.Item href='../pages/ReservaMaquinas.jsx'>Máquinas</NavDropdown.Item>
+                            <NavDropdown.Item href='../pages/ReservaCurso.jsx'>Curso</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#">Contacto</Nav.Link>
-                        <Nav.Link href="#" className="btn-custom">Iniciar Sesión</Nav.Link>
-                        <Nav.Link href="#" className="btn-custom">Registrarse</Nav.Link>
+                        <Nav.Link href='#'>Contacto</Nav.Link>
+                        <Nav.Link href='#' className="btn-custom">Iniciar Sesión</Nav.Link>
+                        <Nav.Link href='#' className="btn-custom">Registrarse</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
