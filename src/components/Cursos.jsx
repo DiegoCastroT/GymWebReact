@@ -1,15 +1,18 @@
-import React, {useEffect, useState} from "react";
-import {Card, Row, Col, Container, Button,} from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Card, Row, Col, Container, Button } from "react-bootstrap";
 import '../css/ReservaCurso.css';
 
 const Cursos = () => {
     const [cursos, setCursos] = useState([]);
 
-
     useEffect(() => {
-        fetch("/cursos.json")
+        fetch("/servicios.json")
             .then((response) => response.json())
-            .then(setCursos);
+            .then((data) => {
+                // Filtramos solo los objetos que tienen la categoría "Curso"
+                const cursosFiltrados = data.filter(item => item.Categoria === "Curso");
+                setCursos(cursosFiltrados);
+            });
     }, []);
 
     const handleReservar = (index) => {
@@ -25,7 +28,6 @@ const Cursos = () => {
         });
     };
 
-
     return (
         <Container className="my-5">
             <Row xs={1} sm={2} md={3} lg={3} className="g-4">
@@ -36,7 +38,7 @@ const Cursos = () => {
                                 variant="top"
                                 src={curso.foto}
                                 alt={curso.nombre}
-                                style={{objectFit: "cover"}}
+                                style={{ objectFit: "cover" }}
                             />
                             <Card.Body>
                                 <Card.Title>{curso.nombre}</Card.Title>
@@ -51,7 +53,7 @@ const Cursos = () => {
                                             <Button
                                                 variant="danger"
                                                 onClick={() => handleReservar(index)}
-                                                disabled={curso.disponibles === 0}
+                                                disabled={curso.plazas === 0}
                                             >
                                                 Reservar
                                             </Button>

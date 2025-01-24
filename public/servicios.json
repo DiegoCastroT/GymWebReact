@@ -1,5 +1,48 @@
 [
     {
+      "Categoria":"Maquinas",
+      "nombre": "Cinta de correr",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "cinta.png"
+    },
+    {
+      "Categoria":"Maquinas",
+      "nombre": "Bicicleta Estatica",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "bici.png"
+    },
+    {
+      "Categoria":"Maquinas",
+      "nombre": "Máquina de remo",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "remo.png"
+    },
+    {
+      "Categoria":"Maquinas",
+      "nombre": "Bicicleta de Spinning",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "spinning.png"
+    },
+    {
+      "Categoria":"Maquinas",
+      "nombre": "Eliptica",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "eliptica.png"
+    },
+    {
+      "Categoria":"Maquinas",
+      "nombre": "Multipower",
+      "plazas": 10,
+      "precioPorHora": 6,
+      "foto": "multipowe.png"
+    },
+    {
+      "Categoria":"Curso", 
       "nombre": "Clase Fuerza Básica",
       "plazas": 3,
       "descripcion": "Entrena fuerza y resistencia. Movimientos suaves, enfoque en técnica y control. Perfecta para tonificar y cuidar tu cuerpo sin impacto alto. ¡Transforma tu cuerpo!",
@@ -8,7 +51,8 @@
       "precioPorHora": 12,
       "width": 40
     },
-    {
+    {   
+      "Categoria":"Curso", 
         "nombre": "Clase Cardio Avanzado",
         "plazas": 0,
         "descripcion": "Mejora tu resistencia cardiovascular. Clase intensa con intervalos de alta intensidad.",
@@ -18,6 +62,7 @@
         "width": 70
     },
     {
+      "Categoria":"Curso", 
      "nombre": "Clase Yoga Restaurativo",
       "plazas": 4,
       "descripcion": "Relájate y rejuvenece con posturas suaves y respiración consciente.",
@@ -27,6 +72,7 @@
       "width": 70
     },
     {
+      "Categoria":"Curso", 
       "nombre": "Clase Zumba",
       "plazas": 6,
       "descripcion": "Baila y quema calorías con ritmos latinos y una gran energía.",
@@ -36,6 +82,7 @@
       "width": 50
     },
     {
+      "Categoria":"Curso", 
       "nombre": "Clase HIIT",
       "plazas": 4,
       "descripcion": "Entrenamiento de alta intensidad que combina cardio y fuerza.",
@@ -45,6 +92,7 @@
       "width": 80
     },
     {
+      "Categoria":"Curso", 
       "nombre": "Clase Pilates",
       "plazas": 3,
       "descripcion": "Mejora tu postura y tonifica con ejercicios de control y respiración.",
