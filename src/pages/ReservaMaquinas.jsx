@@ -5,9 +5,7 @@ import Footer from "../components/Footer.jsx";
 
 const ReservaMaquinas = () => (
     <>
-        <Header/>
         <Maquinas/>
-        <Footer/>
     </>
 );
 

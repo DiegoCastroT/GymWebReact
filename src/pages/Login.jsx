@@ -7,11 +7,9 @@ import LoginRegister from "../components/LoginRegister.jsx";
 
 const Login = () => (
     <div>
-        <Header/>
         <VideoBackground/>
         <LoginRegister/>
         <Testimonials/>
-        <Footer/>
     </div>
 );
 
