@@ -2,7 +2,7 @@ footer {
     position: relative;
     bottom: 0; /* Para que quede pegado abajo */
     width: 100%;
-    background-color: aliceblue;
+    background-color: #ffffff;
     margin-top: auto;
     padding: 1rem 0;
 }

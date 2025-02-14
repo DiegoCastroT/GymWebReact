@@ -5,7 +5,7 @@
 }
 
 .btn-custom:hover {
-    background-color: darkorange; /* Color on hover */
+    background-color: darkorange;
     color: white;
 }
 .navbar-nav .nav-link {

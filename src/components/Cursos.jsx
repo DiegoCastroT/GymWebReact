@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Card, Row, Col, Container, Button, Modal, Form } from "react-bootstrap";
-import { CursosContext } from "../context/CursosContext";
-import { useModalReserva } from "../context/ModalReservaContext";
+import { CursosContext } from "../providers/CursosContext";
+import { useModalReserva } from "../providers/ModalReservaContext";
 import "../css/ReservaCurso.css";
 
 const Cursos = () => {

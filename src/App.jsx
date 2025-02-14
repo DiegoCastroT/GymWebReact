@@ -5,8 +5,8 @@ import ReservaMaquinas from "./pages/ReservaMaquinas.jsx";
 import ReservaCurso from "./pages/ReservaCurso.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import { MaquinasProvider } from "./context/MaquinasContext";
-import { CursosProvider } from "./context/CursosContext";
+import { MaquinasProvider } from "./providers/MaquinasContext";
+import { CursosProvider } from "./providers/CursosContext";
 
 const App = () => (
     <Router>
