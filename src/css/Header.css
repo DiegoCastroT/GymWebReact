@@ -1,7 +1,7 @@
 .btn-custom {
     background-color: white;
     color: rgb(0, 0, 0);
-    border: none;
+    border-radius: 5px;
 }
 
 .btn-custom:hover {
