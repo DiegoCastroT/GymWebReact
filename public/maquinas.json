@@ -1,7 +1,7 @@
 [
     {
       "nombre": "Cinta de correr",
-      "plazas": 10,
+      "plazas": 0,
       "precioPorHora": 6,
       "foto": "cinta.png"
     },

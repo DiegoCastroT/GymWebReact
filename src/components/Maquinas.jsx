@@ -35,11 +35,15 @@ const Maquinas = () => {
                     <Card.Text>
                       <strong>Disponibles:</strong>{" "}
                       {maquina.plazas === 0 ? (
-                          "No disponibles"
+                          <>
+                          <Button className="card_button" variant="secondary"  disabled= "true" onClick={() => openModal(index)}>
+                              No disponible
+                            </Button>      
+                          </>
                       ) : (
                           <>
                             {maquina.plazas}{" "}
-                            <Button variant="danger" onClick={() => openModal(index)}>
+                            <Button  className="card_button" variant="danger" onClick={() => openModal(index)}>
                               Reservar
                             </Button>
                           </>
